@@ -1,0 +1,26 @@
+# Disk DescriptorFile
+version=1
+encoding="windows-1252"
+CID=610a190f
+parentCID=ffffffff
+createType="twoGbMaxExtentSparse"
+
+# Extent description
+RW 8323072 SPARSE "Client-cl1-s001.vmdk"
+RW 8323072 SPARSE "Client-cl1-s002.vmdk"
+RW 8323072 SPARSE "Client-cl1-s003.vmdk"
+RW 8323072 SPARSE "Client-cl1-s004.vmdk"
+RW 8323072 SPARSE "Client-cl1-s005.vmdk"
+RW 327680 SPARSE "Client-cl1-s006.vmdk"
+
+# The Disk Data Base 
+#DDB
+
+ddb.adapterType = "lsilogic"
+ddb.deletable = "true"
+ddb.geometry.cylinders = "2610"
+ddb.geometry.heads = "255"
+ddb.geometry.sectors = "63"
+ddb.longContentID = "26e996874bc110db8271b52c610a190f"
+ddb.uuid = "60 00 C2 95 22 16 1b 43-e0 72 c8 0d 03 8a 57 71"
+ddb.virtualHWVersion = "14"
